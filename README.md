@@ -224,4 +224,8 @@
 4. 回應操作結果至前端。
 
 ---
-
+---
+#因為之前一直修改版本，所以提交次數會很新，刪掉了很多草案，以下是之前的檔案紀錄，可以看到我之前相同專案的草稿或是提交次數
+1.https://github.com/jasonhouse1/1120_mongo
+2.https://github.com/jasonhouse1/mongoDemoback-pratice-
+---

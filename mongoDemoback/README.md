@@ -191,7 +191,7 @@
 ## 架構圖
 
 ```plaintext
-[https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Studenthubdone.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjasonhouse1%2FmongoDemoback%2Fmain%2FStudenthubdone.drawio](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Studenthubdone.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjasonhouse1%2FmongoDemoback%2Fmain%2FStudenthubdone.drawio)
+https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Studenthubdone.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjasonhouse1%2FmongoDemoback%2Fmain%2FStudenthubdone.drawio
 ```
 
 ### 描述

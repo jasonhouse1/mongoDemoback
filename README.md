@@ -186,15 +186,6 @@
 }
 ```
 
----
-
-## 架構圖
-
-```plaintext
-https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Studenthubdone.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjasonhouse1%2FmongoDemoback%2Fmain%2FStudenthubdone.drawio#%7B%22pageId%22%3A%22iu0wJ5g2TszM2J1A6xG7%22%7D
-![alt text](image.png)
-```
-
 ### 描述
 1. **前端應用**：使用 React.js 開發，負責與使用者互動。
 2. **後端 API 服務**：使用 Node.js + Express 實現，處理前端請求並與資料庫互動。
@@ -223,6 +214,14 @@ https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank
 4. 回應操作結果至前端。
 
 ---
+---
+
+#架構圖
+```
+https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Studenthubdone.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fjasonhouse1%2FmongoDemoback%2Fmain%2FStudenthubdone.drawio#%7B%22pageId%22%3A%22iu0wJ5g2TszM2J1A6xG7%22%7D
+![alt text](image-2.png)
+
+```
 ---
 #因為之前一直修改版本，所以提交次數會很新，刪掉了很多草案，以下是之前的檔案紀錄，可以看到我之前相同專案的草稿或是幾次的提交次數
 1.https://github.com/jasonhouse1/1120_mongo

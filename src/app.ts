@@ -3,22 +3,16 @@ import {router} from "./Routers"
 import { logger } from './middlewares/log';
 const http = require('http');
 import cors from 'cors';
-import { MongoDB } from './utils/MongoDB';
+import { Mariadb } from './utils/Mariadb';
 require('dotenv').config()
 const app: express.Application = express()
 const server = http.createServer(app);
 
-export const DB = new MongoDB({
-  name:process.env.DBUSER as string,
-  password:process.env.DBPASSWORD as string,
-  host:process.env.DBHOST as string,
-  port:process.env.DBPORT as string,
-  dbName:process.env.DBNAME as string
-});
+export const DB = new Mariadb();
 
 app.use(cors({
-  // "origin": "https://sec.ethci.app",
-  "origin": "*",
+ 
+  "origin": "*", // "origin": "https://sec.ethci.app",
   "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
   "preflightContinue": false,
   "optionsSuccessStatus": 200,
@@ -33,6 +27,7 @@ for (const route of router) {
   app.use(route.getRouter())
 }
 
-server.listen(process.env.PORT, () => {
-  logger.info('listening on *:'+process.env.PORT);
+server.listen(process.env.SVPORT, () => {
+  logger.info('listening on *:'+process.env.SVPORT);
 });
+
